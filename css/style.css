@@ -9,6 +9,7 @@
 body {
   background-color: #eee;
   font-family: 'Lato', sans-serif;
+  margin-bottom: 500px;
 }
 
 #header {
@@ -120,4 +121,28 @@ body {
 
 #video {
   width: 450px;
+}
+
+#pricing {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.trombones ul li {
+  list-style-type: none;
+}
+
+.trombones {
+  width: 200px;
+  border: 2px solid white;
+  border-top: none;
+  border-bottom: none;
+  margin: 10px;
+  text-align: center;
+}
+
+.trombone-heading {
+  background: #ddd;
+  padding: 10px;
+  font-size: 16px;
 }
