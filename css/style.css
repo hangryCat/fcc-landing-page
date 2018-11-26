@@ -85,6 +85,9 @@ body {
 #container-features {
   max-width: 700px;
   margin: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
 }
 
 .flex {
@@ -109,4 +112,12 @@ body {
 
 .description p {
   font-size: 14px;
+}
+
+#how-it-works {
+
+}
+
+#video {
+  width: 450px;
 }
