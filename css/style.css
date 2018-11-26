@@ -12,7 +12,6 @@ body {
 }
 
 #header {
-  margin-bottom: 30px;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
@@ -52,14 +51,15 @@ body {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
+  padding: 50px;
 }
 
-h2 {
+#hero h2 {
   font-size: calc(16px + 1vw);
 }
 
 #form {
-  height: 100px;
+  height: 130px;
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-evenly;
@@ -76,6 +76,37 @@ h2 {
   width: 140px;
   height: 35px;
   font-size: 16px;
-  background: #ffcc00;
+  background: #f1c40f;
   font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+#container-features {
+  max-width: 700px;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 20px;
+}
+
+.icon {
+  width: 40px;
+  color: darkorange;
+  text-align: center;
+}
+
+.icon i {
+  font-size: 2em;
+}
+
+.description h2 {
+  font-size: 18px;
+}
+
+.description p {
+  font-size: 14px;
 }
