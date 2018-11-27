@@ -94,11 +94,10 @@ body {
 .flex {
   display: flex;
   flex-flow: row nowrap;
-  padding: 20px;
+  padding: 15px;
 }
 
 .icon {
-  width: 40px;
   color: darkorange;
   text-align: center;
   margin: 14px 32px;
@@ -106,6 +105,7 @@ body {
 
 .icon i {
   font-size: 2em;
+  width: 40px;
 }
 
 .description h2 {
